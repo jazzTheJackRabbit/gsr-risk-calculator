@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3F54EA1A6CC5C70064FBAB /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3F54E91A6CC5C70064FBAB /* DetailTableViewController.m */; };
 		CA44F2E41A6B14440033EF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F2E31A6B14440033EF90 /* main.m */; };
 		CA44F2E71A6B14440033EF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F2E61A6B14440033EF90 /* AppDelegate.m */; };
-		CA44F2EA1A6B14440033EF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F2E91A6B14440033EF90 /* ViewController.m */; };
-		CA44F2ED1A6B14440033EF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA44F2EB1A6B14440033EF90 /* Main.storyboard */; };
 		CA44F2EF1A6B14440033EF90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA44F2EE1A6B14440033EF90 /* Images.xcassets */; };
 		CA44F2F21A6B14440033EF90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA44F2F01A6B14440033EF90 /* LaunchScreen.xib */; };
 		CA44F2FE1A6B14440033EF90 /* FarminghamRiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F2FD1A6B14440033EF90 /* FarminghamRiskTests.m */; };
+		CA44F30C1A6B154F0033EF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA44F30B1A6B154F0033EF90 /* Main.storyboard */; };
+		CA44F30F1A6B174D0033EF90 /* ScoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F30E1A6B174D0033EF90 /* ScoreModel.m */; };
+		CA44F31B1A6B2F060033EF90 /* InputTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F31A1A6B2F060033EF90 /* InputTableViewController.m */; };
+		CA44F3271A6B9EA30033EF90 /* OutputTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44F3261A6B9EA30033EF90 /* OutputTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA3F54E81A6CC5C70064FBAB /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		CA3F54E91A6CC5C70064FBAB /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
 		CA44F2DE1A6B14440033EF90 /* FarminghamRisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarminghamRisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA44F2E21A6B14440033EF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA44F2E31A6B14440033EF90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA44F2E51A6B14440033EF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA44F2E61A6B14440033EF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA44F2E81A6B14440033EF90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA44F2E91A6B14440033EF90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA44F2EC1A6B14440033EF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA44F2EE1A6B14440033EF90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA44F2F11A6B14440033EF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA44F2F71A6B14440033EF90 /* FarminghamRiskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarminghamRiskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA44F2FC1A6B14440033EF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA44F2FD1A6B14440033EF90 /* FarminghamRiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarminghamRiskTests.m; sourceTree = "<group>"; };
+		CA44F30B1A6B154F0033EF90 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CA44F30D1A6B174D0033EF90 /* ScoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreModel.h; sourceTree = "<group>"; };
+		CA44F30E1A6B174D0033EF90 /* ScoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreModel.m; sourceTree = "<group>"; };
+		CA44F3191A6B2F060033EF90 /* InputTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputTableViewController.h; sourceTree = "<group>"; };
+		CA44F31A1A6B2F060033EF90 /* InputTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputTableViewController.m; sourceTree = "<group>"; };
+		CA44F3251A6B9EA30033EF90 /* OutputTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputTableViewController.h; sourceTree = "<group>"; };
+		CA44F3261A6B9EA30033EF90 /* OutputTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +90,10 @@
 		CA44F2E01A6B14440033EF90 /* FarminghamRisk */ = {
 			isa = PBXGroup;
 			children = (
-				CA44F2E51A6B14440033EF90 /* AppDelegate.h */,
-				CA44F2E61A6B14440033EF90 /* AppDelegate.m */,
-				CA44F2E81A6B14440033EF90 /* ViewController.h */,
-				CA44F2E91A6B14440033EF90 /* ViewController.m */,
-				CA44F2EB1A6B14440033EF90 /* Main.storyboard */,
+				CA44F3241A6B3E420033EF90 /* Views */,
+				CA44F3231A6B3E2A0033EF90 /* ViewControllers */,
+				CA44F3221A6B3E260033EF90 /* Models */,
 				CA44F2EE1A6B14440033EF90 /* Images.xcassets */,
-				CA44F2F01A6B14440033EF90 /* LaunchScreen.xib */,
 				CA44F2E11A6B14440033EF90 /* Supporting Files */,
 			);
 			path = FarminghamRisk;
@@ -96,6 +102,8 @@
 		CA44F2E11A6B14440033EF90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA44F2E51A6B14440033EF90 /* AppDelegate.h */,
+				CA44F2E61A6B14440033EF90 /* AppDelegate.m */,
 				CA44F2E21A6B14440033EF90 /* Info.plist */,
 				CA44F2E31A6B14440033EF90 /* main.m */,
 			);
@@ -117,6 +125,37 @@
 				CA44F2FC1A6B14440033EF90 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA44F3221A6B3E260033EF90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA44F30D1A6B174D0033EF90 /* ScoreModel.h */,
+				CA44F30E1A6B174D0033EF90 /* ScoreModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CA44F3231A6B3E2A0033EF90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA44F3251A6B9EA30033EF90 /* OutputTableViewController.h */,
+				CA44F3261A6B9EA30033EF90 /* OutputTableViewController.m */,
+				CA44F3191A6B2F060033EF90 /* InputTableViewController.h */,
+				CA44F31A1A6B2F060033EF90 /* InputTableViewController.m */,
+				CA3F54E81A6CC5C70064FBAB /* DetailTableViewController.h */,
+				CA3F54E91A6CC5C70064FBAB /* DetailTableViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA44F3241A6B3E420033EF90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA44F30B1A6B154F0033EF90 /* Main.storyboard */,
+				CA44F2F01A6B14440033EF90 /* LaunchScreen.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA44F2ED1A6B14440033EF90 /* Main.storyboard in Resources */,
+				CA44F30C1A6B154F0033EF90 /* Main.storyboard in Resources */,
 				CA44F2F21A6B14440033EF90 /* LaunchScreen.xib in Resources */,
 				CA44F2EF1A6B14440033EF90 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA44F2EA1A6B14440033EF90 /* ViewController.m in Sources */,
+				CA3F54EA1A6CC5C70064FBAB /* DetailTableViewController.m in Sources */,
+				CA44F3271A6B9EA30033EF90 /* OutputTableViewController.m in Sources */,
+				CA44F30F1A6B174D0033EF90 /* ScoreModel.m in Sources */,
 				CA44F2E71A6B14440033EF90 /* AppDelegate.m in Sources */,
+				CA44F31B1A6B2F060033EF90 /* InputTableViewController.m in Sources */,
 				CA44F2E41A6B14440033EF90 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +286,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA44F2EB1A6B14440033EF90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA44F2EC1A6B14440033EF90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA44F2F01A6B14440033EF90 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +382,7 @@
 				INFOPLIST_FILE = FarminghamRisk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +393,7 @@
 				INFOPLIST_FILE = FarminghamRisk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +450,7 @@
 				CA44F3031A6B14440033EF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA44F3041A6B14440033EF90 /* Build configuration list for PBXNativeTarget "FarminghamRiskTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				CA44F3061A6B14440033EF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
