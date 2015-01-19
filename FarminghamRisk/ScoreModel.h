@@ -30,7 +30,7 @@
 @property (nonatomic,strong) NSNumber *systolicBloodPressure;
 @property (nonatomic,assign) BOOL medication;
 
-@property (nonatomic,assign) NSNumber *percentageOfRisk;
+@property (nonatomic,strong) NSNumber *percentageOfRisk;
 
 
 -(ScoreModel *) initWithAge: (NSNumber *)age
