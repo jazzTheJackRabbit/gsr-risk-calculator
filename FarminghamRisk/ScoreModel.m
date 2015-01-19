@@ -10,7 +10,9 @@
 
 @implementation ScoreModel
 
-@synthesize percentageOfRisk;
+-(void)setPercentageOfRisk:(NSNumber *)percentageOfRisk{
+    _percentageOfRisk = percentageOfRisk;
+}
 
 -(void) setAge:(NSNumber *)age
 {
