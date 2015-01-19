@@ -10,6 +10,8 @@
 
 @implementation ScoreModel
 
+@synthesize percentageOfRisk;
+
 -(void) setAge:(NSNumber *)age
 {
     if (age > 0)
